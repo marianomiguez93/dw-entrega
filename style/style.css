@@ -15,6 +15,7 @@ body{
 } 
 .colorParrafo{
     color: violet;
+    text-align: center;
 }
 td ol{
     color: orange;
