@@ -2,9 +2,6 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    color: blue;    
-}
 h2{
     color: blue;
     text-align: center;
@@ -91,11 +88,8 @@ footer ul{
     height: 300px;
     width: 100%;
 }
-.imagenFondoQuienesSomos{
-    background-image: url(../multimedia/QUIENES-SO-min.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
+.imagenQuienesSomos{
+    height: 550px;
 }
 .imagenFondoServicios{
     background-image: url(../multimedia/perroygato-min.jpg);
