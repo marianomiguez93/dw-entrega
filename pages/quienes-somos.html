@@ -11,10 +11,30 @@
 
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
+
+    <!-- HEROES -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="../style/heroes.css" rel="stylesheet">
 </head>
 <body>
-    
-   
+
+  <!-- HEADER -->
   <header>
     <nav class="navbar navbar-expand-lg navbar navbar-light reng" style="background-color: #e3f2fd;">
       <div class="container-fluid ">
@@ -64,51 +84,60 @@
       </div>
     </nav>
   </header>
-
+   <!--fin HEADER -->
 
   <main>
 
-   
+    <h1 class="visually-hidden">Heroes examples</h1>
 
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="../multimedia/QUIENES-SO-min.jpg" class="d-block w-100 imagenQuienesSomos " alt="Foto de un perro">
-          </div>
-          </div>
-      </div>
-
-      <div class="card">
-        <div class="card-body ">
-          <h1 class="display-6">¿Quienes somos?</h1>
-
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold separadorTop">¿Quienes somos?</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Somos Veterinaria "La Cabaña", una entidad dedicada a brindar atención de primera calidad a los pequeños animales.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
         </div>
       </div>
-
-      <div class="container">
-          <div class="row">
-            <section>
-              <div class="card-group">
-                <div class="card">
-                  <img src="../multimedia/veterinario-min.jpg" class="card-img-top fotoVete" alt="Foto de un veterinario">
-                  <div class="card-body">
-                    <h5 class="card-title">Veterinario 1</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere minus, tempora natus modi architecto quisquam exercitationem veniam fuga qui animi sit beatae minima porro, necessitatibus tempore vel aspernatur hic maiores!.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="../multimedia/veterinario2-min.jpg" class="card-img-top fotoVete" alt="Foto de un veterinario">
-                  <div class="card-body">
-                    <h5 class="card-title">Veterinario 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore labore maiores. Enim iste odit possimus. Modi ab quod quam optio obcaecati vero eligendi blanditiis mollitia odio. Provident, deleniti nemo?.</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-            
+    </div>
+  
+    <div class="b-example-divider"></div>
+  
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Nació a fines de los 80 como resultado de la fusión de las experiencias profesionales de dos médicos veterinarios amigos; el Dr.Juan Pablo Vigna y el Dr.Carlos Gomez. <br>Contamos con 2 sedes (Belgrano y Parque patricios)</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="../multimedia/corriendo-min.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+  
+    <div class="b-example-divider"></div>
+  
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="../multimedia/perrito-min.jpg" class="d-block mx-lg-auto img-fluid" alt="Perro siberiano" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
           </div>
-        </div>          
+        </div>
+      </div>
+    </div>
+  
+    <div class="b-example-divider"></div>
+  
+
+
+
+           
   </main>
   
   <!-- FOOTER -->
@@ -143,6 +172,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

@@ -8,7 +8,7 @@ h2{
     margin-top: 25px;
 }
 body{
-    background-color:rgb(198, 244, 255)
+    background-color:rgb(220, 244, 250)
 } 
 .colorParrafo{
     color: violet;
@@ -148,7 +148,6 @@ article{
 .caja3 {
     background-color: rgb(97, 187, 119);
     width: 200px;
-    
 }
 .margenes {
      margin: 50px 10px ;  
@@ -171,7 +170,9 @@ article{
     /* grid-template-rows: 300px 20vh  ; */
 }
 
-
+.formularioPad{
+    padding-left: 300px;
+}
 .separador{
     margin: 30px;
 }
@@ -218,8 +219,6 @@ article{
        margin-top: 300px;
     }
   }
-
-
 
 
 

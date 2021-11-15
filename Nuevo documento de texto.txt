@@ -1,7 +1,0 @@
-Agregue etiqueta keywords (Para cada pagina)
-Agregue etiqueta description
-Etiqueta viewport para responsive
-Optimizacion de jpg de todas las fotos
-Agregado de todos los "alt"
-Jerarquia de encabezados
-Titulo distinto para cada pagina
