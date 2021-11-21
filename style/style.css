@@ -207,9 +207,6 @@ article{
   }
   /* Smartphone */
   @media (max-width: 576px){
-    footer{
-        height: 300px;
-    }
     .prob{
        margin-top: 300px;
     }
