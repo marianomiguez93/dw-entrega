@@ -8,42 +8,30 @@ h2 {
   margin-top: 25px; 
 }
 
-body {
+body{
   background-color: #dcf4fa;
  }
-
-.colorParrafo {
-  color: violet;
-  text-align: center; 
-}
+ .fondoB{
+  background-color: #dcf4fa
+ }
 
 footer {
   background-color: #dcdbdb;
  }
-
 footer ul {
   color: #e8d1dd;
   font-family: 'Roboto', cursive; 
 }
-
 .centrar {
-  text-align: center; }
-
-.normal {
-  font-style: normal;
-  font-weight: normal; }
+  text-align: center;
+ }
 
 .negrita {
-  font-weight: bold; }
-
-.subrayado {
-  text-decoration: underline; 
+  font-weight: bold; 
 }
-
 .cursiva {
   font-style: italic; 
 }
-
 .impact {
   font-family: 'Impact','Helvetica','Arial', sans-serif; 
 }
@@ -79,16 +67,6 @@ footer ul {
   color: black;
   font-weight: bold; 
 }
-/* 
-.probando:hover {
-  
-  color: black;
-  font-weight: bold;
- } */
-
-.imagenFondo {
-  height: 500px;
- }
 
 .imagenFondoContacto {
   background-size: cover;
@@ -97,69 +75,8 @@ footer ul {
   width: 100%; 
 }
 
-.imagenQuienesSomos {
-  height: 550px; 
-}
-
 ul {
   list-style-type: none; 
-}
-
-article {
-  margin-block-end: 30px;
-  margin-block-start: 20px;
-  flex-basis: 100%; 
-}
-
-.fotoVete {
-  width: 200px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border-color: black;
-}
-
-/* CONTENEDOR FLEXBOX */
-.contenedorMenu {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-
-.contenedorFooter {
-  display: flex;
-  flex-flow: row wrap; 
-}
-
-.contenedorArticle {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: start;
-  align-items: center;
-  align-content: space-between; 
-}
-
-.itemFooter {
-  flex-grow: 1;
-  padding: 25px;
-  color: #e8d1dd; 
-}
-
-/* BOX MOD */
-.caja {
-  background-color: #619cbb;
-  width: 80%;
-  height: 25vh; 
-}
-
-.caja2 {
-  background-color: #61bb77;
-  width: 80%;
-  height: 25vh; 
-}
-
-.caja3 {
-  background-color: #61bb77;
-  width: 200px; 
 }
 
 .margenes {
@@ -169,7 +86,6 @@ article {
 .padding {
   padding: 20px; 
 }
-
 .bordes {
   border: solid 10px #265b7d; 
 }
@@ -179,17 +95,9 @@ article {
   margin: 7px; 
 }
 
-/* GRIDS */
-.contenedorGrid {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  /* grid-template-rows: 300px 20vh  ; */
- }
-
 .formularioPad {
   padding-left: 300px; 
 }
-
 .separador {
   margin: 30px; 
 }
@@ -207,14 +115,6 @@ article {
 
 .separador2 {
   margin: 100px 150px 0px 0px; 
-}
-
-.fotoPerri {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 100%;
-  /* ancho*/ 
 }
 
 .medio {
@@ -248,6 +148,7 @@ article {
   .letraCabaña{
     margin-top: -200px;
   }
+  
 
 /* FOOTER NUEVO */
 .b-example-divider {
@@ -257,7 +158,6 @@ article {
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); 
 }
-
 .bi {
   vertical-align: -.125em;
   fill: currentColor; 
@@ -271,12 +171,10 @@ article {
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); 
 }
-
 .bi {
   vertical-align: -.125em;
   fill: currentColor; 
 }
-
 .feature-icon {
   display: inline-flex;
   align-items: center;
@@ -321,19 +219,15 @@ article {
 .rounded-5 {
   border-radius: 1rem; 
 }
-
 .text-shadow-1 {
   text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
 }
-
 .text-shadow-2 {
   text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
 }
-
 .text-shadow-3 {
   text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
 }
-
 .card-cover {
   background-repeat: no-repeat;
   background-position: center center;

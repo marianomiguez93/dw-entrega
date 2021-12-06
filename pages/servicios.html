@@ -12,11 +12,10 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
 
 </head>
-<body>
+<body class="fondoB">
 
   <!-- SVG -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -26,7 +25,7 @@
   </svg>
   <!--FIN SVG -->
 
-    
+  <!-- HEADER  -->
   <header>
       <nav class="navbar navbar-expand-lg navbar navbar-light reng" style="background-color: #e3f2fd;">
         <div class="container-fluid ">
@@ -46,7 +45,7 @@
                   </li>
                   <li class="nav-item">
                     <button type="button" class="btn btn-light botonNavFondo">
-                      <a class="nav-link" href="./quienes-somos.html">Quienes somos</a>
+                      <a class="nav-link" href="./quienes-somos.html">Quiénes somos</a>
                     </button>
                   </li>
         
@@ -75,17 +74,24 @@
             </div>
         </div>
       </nav>
-  </header> 
+  </header>
+  <!-- FIN HEADER  -->
 
   <!-- FOTO PRINCIPAL -->
-  <div>
-    <img class=" imagenQuienesSomos img-fluid" src="../multimedia/perroygato-min.jpg" alt="Perro corriendo">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../multimedia/perroygato-min.jpg" height="550px" class="d-block w-100" alt="...">
+      </div>
+    </div>
   </div>
   <!-- FIN FOTO PRINCIPAL -->
 
 
+
+
   <!-- SERVICIOS -->
-  <div class="container px-4 py-5" id="icon-grid">
+  <div class="container px-4 py-5 fondoB" id="icon-grid" >
     <h2 class="pb-2 border-bottom">¡Conocé nuestros servicios!</h2>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
@@ -93,14 +99,14 @@
         <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
         <div>
           <span class="d-inline-block" data-bs-placement="bottom" tabindex="0" data-bs-toggle="popover" placement='top' data-bs-trigger="hover focus" data-bs-content="Observación clínica por parte de nuestros profesionales.">
-            <h4 class="fw-bold mb-0 ">Clinica</h4>
+            <h4 class="fw-bold mb-0 ">Clínica</h4>
           </span>
         </div>
       </div>
       <div class="col d-flex align-items-start separador">
         <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
         <div>
-          <span class="d-inline-block" data-bs-placement="bottom" tabindex="0" data-bs-toggle="popover" placement='top' data-bs-trigger="hover focus" data-bs-content="Esterilización/Castración, Operación intestinal,de cataratas.">
+          <span class="d-inline-block" data-bs-placement="bottom" tabindex="0" data-bs-toggle="popover" placement='top' data-bs-trigger="hover focus" data-bs-content="Esterilización/Castración, Operación intestinal,Operacion de cataratas.">
             <h4 class="fw-bold mb-0">Cirugias</h4>
           </span>
         </div>
@@ -116,7 +122,7 @@
       <div class="col d-flex align-items-start separador">
         <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
         <div>
-          <span class="d-inline-block" data-bs-placement="bottom" tabindex="0" data-bs-toggle="popover" placement='top' data-bs-trigger="hover focus" data-bs-content="Perro: Moquillo,hepatitis, parvovirus,tos,leptospirosis  Gato: Panleucopenia,rabia,leucemia,calicivirus.">
+          <span class="d-inline-block" data-bs-placement="bottom" tabindex="0" data-bs-toggle="popover" placement='top' data-bs-trigger="hover focus" data-bs-content="Todas las vacunas correspondientes para tus animales.">
             <h4 class="fw-bold mb-0">Vacunaciones</h4>
           </span>
         </div>
