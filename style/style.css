@@ -123,6 +123,7 @@ ul {
 
 .botonNavFondo:hover {
   background-color: #bed3e6; 
+  border-radius: .5rem; 
 }
 .reng {
   padding-top: 0rem !important;
